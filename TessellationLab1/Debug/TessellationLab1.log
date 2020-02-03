@@ -1,0 +1,15 @@
+﻿  Source.cpp
+h:\year 3\shaders\tessellationlab1\tessellationlab1\include\icso.h(15): warning C4305: 'initializing': truncation from 'double' to 'const float'
+h:\year 3\shaders\tessellationlab1\tessellationlab1\include\icso.h(16): warning C4305: 'initializing': truncation from 'double' to 'const float'
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(137): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(155): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(167): warning C4305: 'argument': truncation from 'double' to 'float'
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(168): warning C4305: 'argument': truncation from 'double' to 'float'
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(217): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(218): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(222): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(223): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(225): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(226): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+h:\year 3\shaders\tessellationlab1\tessellationlab1\src\source.cpp(235): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  TessellationLab1.vcxproj -> H:\year 3\Shaders\TessellationLab1\Debug\TessellationLab1.exe
