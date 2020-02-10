@@ -88,7 +88,7 @@ public:
 		const char* vShaderCode = vertexCode.c_str();
 		const char * fShaderCode = fragmentCode.c_str();
 		// 2. compile shaders
-		unsigned int vertex, fragment/*, tesselation*/;
+		unsigned int vertex, fragment;
 		// vertex shader
 		vertex = glCreateShader(GL_VERTEX_SHADER);
 		glShaderSource(vertex, 1, &vShaderCode, NULL);

@@ -5,11 +5,11 @@ layout (location = 1) in vec3 aNormals;
 uniform mat4 model;
 uniform mat4 view;
 uniform mat4 projection;
-uniform vec3 eyePos ;
+uniform vec3 eyePos;
 
-out vec3 eye ;
+out vec3 eye;
 out vec3 WorldPos_CS_in; 
-out vec3 normals ;
+out vec3 normals;
 
 void main()
 {
