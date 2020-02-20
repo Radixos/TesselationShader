@@ -12,6 +12,7 @@ layout (vertices = 3) out;
 
 in vec3 posVS[];
 in vec3 normVS[];
+
 uniform vec3 eyePos;
 
 out vec3 posTC[];
@@ -31,23 +32,6 @@ float GetTessLevel(float dist1, float dist2)
 	if (avgDist < 1.f)
 		return 1;
 	return tessLevel;
-
-	//use avgDist to find tess level
-
-	//if (avgDist < 6)
-	//return 6;
-	//else if (avgDist < 8)
-	//return 5;
-	//else if (avgDist < 10)
-	//return 4;
-	//else if (avgDist < 12)
-	//return 3;
-	//else if (avgDist < 14)
-	//return 2;
-	//
-	//return 1;
-
-	//return avgDist;
 }
 
 void main()
