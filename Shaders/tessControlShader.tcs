@@ -20,16 +20,16 @@ out vec3 normTC[];
 
 float GetTessLevel(float dist1, float dist2)
 {
-	float tessLevel = 0.f;
+	float tessLevel = 0;
 	float avgDist = (dist1 + dist2)/2;
-	float lambda = -0.1f;
-	float alpha = 5f;
+	float lambda = -0.1;
+	float alpha = 5;
 
 	float equation = lambda * avgDist;
 
 	tessLevel = round(exp(equation) * alpha);
 
-	if (avgDist < 1.f)
+	if (avgDist < 1)
 		return 1;
 	return tessLevel;
 }
